@@ -1,6 +1,7 @@
 import Section from "../Section/Section";
 
-const Body = ({ utilsSection, developersSection }) => {
+const Body = ({ data }) => {
+  const { utilsSection, developersSection } = data;
   return (
     <main id="body">
       <article>
@@ -10,3 +11,5 @@ const Body = ({ utilsSection, developersSection }) => {
     </main>
   );
 };
+
+export default Body;

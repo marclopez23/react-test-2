@@ -1,6 +1,6 @@
 import Card from "../Card/Card";
 
-const Section = ({ sectionTitle, sectionDescription, cards }) => {
+const Section = ({ data: { sectionTitle, sectionDescription, cards } }) => {
   return (
     <section>
       <h2>{sectionTitle}</h2>

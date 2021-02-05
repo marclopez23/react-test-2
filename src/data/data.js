@@ -98,7 +98,7 @@ export const data = {
       phone: "0800-react",
       address: {
         country: "USA",
-        street: "a USA street",
+        street: "5th Avenue",
         state: "NY",
       },
     },
